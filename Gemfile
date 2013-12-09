@@ -42,3 +42,20 @@ gem 'jbuilder', '~> 1.2'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'api-versions'
+gem 'apipie-rails'
+gem 'devise'
+gem 'devise_invitable'
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-ext'
+  gem 'rails_layout'
+  gem 'rvm-capistrano'
+end
+
+group :production do
+  gem 'unicorn'
+end
+
